@@ -15,7 +15,8 @@ function criarAluno(nome, n1, n2){
  var turma = [
     criarAluno("Igor", 9, 7),
     criarAluno("Mateus", 9, 7),
-    criarAluno("Carlos", 8, 5)
+    criarAluno("Carlos", 8, 5),
+    criarAluno("Rafaela", 4, 6)
 ]
 
 
@@ -29,6 +30,9 @@ turma.forEach(function(elemento){
 
 for (var aluno of turma){
 
-console.log(aluno.nome + " - Nota1: " + aluno.nota1 + " - " + " Nota2: " + aluno.nota2 + " Media = " + aluno.media())
+console.log(aluno.nome + " - Nota1: " + aluno.nota1 + " - " +
+                         " Nota2: " + aluno.nota2 + 
+                         " Media = " + aluno.media())
 
 }
+
