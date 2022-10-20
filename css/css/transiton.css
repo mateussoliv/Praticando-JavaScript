@@ -1,0 +1,21 @@
+.btn{
+    display: inline-block;
+    padding: 10px;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 30px;
+    border: solid 2px black;
+
+
+    transition-property: background-color, padding;
+    transition-duration: 500ms;
+    transition-delay: 1s;
+    transition-timing-function: ease-in;
+}
+
+
+.btn:hover{
+    background-color: aquamarine;
+    padding-left: 30px;
+    padding-right: 30px;
+}

@@ -1,0 +1,39 @@
+p::first-letter{
+    color: red;
+    font-size: 35px;
+}
+
+
+li{
+    /* margin-left: 200px; */
+    list-style: none;
+    /* list-style-image: url(../img/icon.png); */
+    border: solid 2px black;
+    padding: 2px;
+} 
+
+
+li::before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} 
+
+
+input:focus{
+    color: red;
+}
+
+li:nth-of-type(even){
+    background-color: aqua;
+     
+}
+
+li:nth-of-type(odd){
+  background-color: blueviolet;
+}

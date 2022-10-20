@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+
+    
+    background-color: aliceblue;
+    height: 290px;
+    color: aliceblue;
+    border: solid black 2px;
+}
+
+.r1{
+    order: 3;
+    flex-grow: 1;
+    background-color: red;
+}
+.r2{
+
+    order: 1;
+    flex-grow: 1;
+    background-color: blue;
+}
+.r3{
+    order: 2;
+    flex-grow: 1;
+    background-color: green;
+}
+
+.rect{
+    width: 150px;
+    height: 100px; 
+}

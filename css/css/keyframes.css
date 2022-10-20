@@ -1,0 +1,71 @@
+
+
+@keyframes changeColor{
+
+    0%{
+        background-color: blueviolet; width: 200px;
+    }
+    25%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: black; width: 400px;
+    }
+    75%{
+        background-color: brown;
+    }
+    80%{
+        background-color: aquamarine; width: 1000px;
+    }
+    85%{
+        background-color: bisque; width: 500px;
+    }
+    100%{
+        background-color: aliceblue; width: 200px; 
+
+    }
+
+} 
+
+@keyframes movie {
+    
+    0%{
+       left: 0px; 
+    }
+    100%{
+        left: 300px;
+    }
+}
+
+
+.box{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    /* animation-name: movie; */
+    /* animation-name: changeColor; */
+    /* animation-duration: 5s;
+    animation-fill-mode: forwards; */
+
+    animation: changeColor 3s linear 0s 1 normal forwards;
+    
+}
+
+.div1{
+    animation-timing-function: linear;
+}
+.div2{
+    animation-timing-function: ease;
+}
+.div3{
+    animation-timing-function: ease-in;
+}
+.div4{
+    animation-timing-function: ease-out;
+}
+.div5{
+    animation-timing-function: ease-in-out;
+}
+
+
